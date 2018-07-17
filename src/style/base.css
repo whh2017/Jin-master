@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/*reset*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td{ margin: 0; padding: 0;}
+table{ border-collapse: collapse; border-spacing: 0;}
+fieldset, img{ border: 0;}
+em, strong, i{ font-style: normal;}
+ol, ul, li{ list-style: none;}
+input, button, textarea, select, optgroup, option{ font-family: arial; font-size: inherit; font-style: inherit; font-weight: inherit;}
+select, input, label, button, img{ vertical-align: middle;}
+input, button, textarea, img{ line-height: normal;}
+*, *:before, *:after{ box-sizing: border-box;}
+
+/*主体*/
+body{ font: 12px/1.5 arial; color: #666; min-width: 1140px; font-family: "PingFang SC";}
+a{ color: #333; text-decoration: none; -webkit-transition: all .3s; transition: all .3s;}
+a:hover{ color: #e71729; text-decoration: none;}
+:focus{ outline: 0;}
+
+.fl{ float:left;}
+.fr{ float:right;}
+.clearfix{ clear: left; *zoom: 1;}
+.clearfix:after{ content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+
+.tc{ text-align: center;}
+.hide{ display: none;}
+
+.layout{ width: 1140px; margin-left: auto; margin-right: auto;}
+
+.no-wrap{ overflow: hidden; text-overflow:ellipsis; white-space: nowrap;}
