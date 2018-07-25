@@ -9,7 +9,14 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(ElementUI);
 
+import echarts from 'echarts'  //引入echarts
+Vue.prototype.$echarts = echarts  //注册组件
+
 Vue.config.productionTip = false
+
+/* Mock.js */
+import mock from './api/mock'
+mock();
 
 /* eslint-disable no-new */
 new Vue({
